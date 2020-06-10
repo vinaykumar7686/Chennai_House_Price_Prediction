@@ -1,0 +1,59 @@
+_______________________________Hypothesis______________________________________
+
+>   Sale Price of houses should increase with increse in Area of house.
+>   Sale Price of houses will depend upon the locality of the house.
+>   Sale price of houses will depend on the number of rooms in house.
+>   Houses with Parking facility will have price on higher side.
+
+
+
+_____________________________Univariate Analysis_________________________________
+
+>   Sale Price of most of the houses is between 0.75 to 1.5 e7.(Right Skewed)
+    Very few houses with very high sale price.
+>   Most of the houses have area between either 750 to 1250 or 1500 to 2000 square feets
+>   There are huge number of houses whose commision is around 1e5, this number decreses as the commision increses with a very few houses whoses commision is between 4e5 to 5e5.
+>   Most of the houses have either 1 or 2 bedrooms. Houses with 3 and 4 bedrroms are very few in count.
+
+BEDROOM
+1.0    3795
+2.0    2352
+3.0     707
+4.0     254
+
+>   No House with one room, most common rooms count= 3,4,5,
+
+ROOMS
+4    2563
+3    2125
+5    1246
+2     921
+6     254
+
+>   Most of the houses have 1 bathroom(78%)
+
+1.0    5589
+2.0    1515
+
+
+
+
+_______________________________Bivariate Analysis_______________________________
+
+>   Sale price and Area in SQFT have high degree of correlation among them.
+    To be precise 0.612125
+>   Sale price and Commission have high degree of correlation among them.
+    To be precise 0.571076
+>   If a house as one bedroom it will be having only one bathroom.
+    If a house as 3 or 4 bedrooms then it will have 2 bathrooms.
+>   Sale Price of Commercial is on the higher side as compared to others or houses,
+    and hence is its commission.
+>   Houses with less sale price have less commission.
+>   T Nagar is the most expensive Locality followed by Anna Nagar, KK Nagar, Velachery,
+     rest of the Localities have prices less than 1e7
+>   Every Locality has Coomercial building which have highest price.
+>   Houses with Parking facility have ususally higher pricea scompared tio those who dont have parking facility.
+
+
+
+
